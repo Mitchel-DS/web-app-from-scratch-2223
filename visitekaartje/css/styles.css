@@ -1,0 +1,31 @@
+/* google font */
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5em;
+
+}
+
+section.container {
+	width: 25em;
+	height: 53em;
+	background-color: rgb(27, 42, 126);
+	border-radius: 15px;
+	display: flex;
+    justify-content: center;
+}
+
+h2 {
+	margin-top: 10px;
+	color: white;
+}

@@ -1,18 +1,17 @@
-/* google font */
-
 *,
 *::after,
 *::before {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 5em;
+	/* margin: 5em; */
 
 }
 
@@ -22,10 +21,43 @@ section.container {
 	background-color: rgb(27, 42, 126);
 	border-radius: 15px;
 	display: flex;
+	flex-direction: column;
     justify-content: center;
+	align-items: center;
+	transition: transform 500ms ease;
 }
 
-h2 {
-	margin-top: 10px;
+section.container:hover {
+	transform: scale(1.05);
+}
+
+section.container h2 {
+	margin-top: 20px;
 	color: white;
+}
+
+section.container h3 {
+	color:aquamarine;
+}
+
+section.container img {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.container p {
+	color: white;
+	margin-top: 10px;
+}
+
+section.container button {
+	margin-top: 10px;
+	padding: 10px;
+	width: 50%;
+}
+
+section.container button a { 
+	text-decoration: none;
 }

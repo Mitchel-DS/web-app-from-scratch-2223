@@ -36,7 +36,7 @@ Your efforts will be graded using a single point rubric (see below). You will ha
 |  | *Project* - your app is working and published on GitHub Pages. Your project is thoroughly documented in the `README.md` file in your repository.  |  |
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
-[live demo - visitekaartje](mitchel-ds.github.io/web-app-from-scratch-2223/visitekaartje/index.html)
+[live demo - visitekaartje](https://mitchel-ds.github.io/web-app-from-scratch-2223/visitekaartje/index.html)
 <!-- ☝️ replace this description with a description of your own work -->
 
 <!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->

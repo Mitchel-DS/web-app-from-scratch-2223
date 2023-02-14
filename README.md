@@ -38,6 +38,7 @@ Your efforts will be graded using a single point rubric (see below). You will ha
 <!-- Add a link to your live demo in Github Pages 🌐-->
 ## Live demos
 [live demo - visitekaartje](https://mitchel-ds.github.io/web-app-from-scratch-2223/visitekaartje/index.html)
+[live demo - rijksmuseum](https://mitchel-ds.github.io/web-app-from-scratch-2223/rijksmuseum/index.html)
 <!-- ☝️ replace this description with a description of your own work -->
 
 <!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->

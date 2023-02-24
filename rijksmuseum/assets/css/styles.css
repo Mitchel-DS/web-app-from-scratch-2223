@@ -25,16 +25,16 @@ header {
 	top: 0;
 }
 
+main {
+	padding-top: 100px;
+}
+
 h1 {
 	font-size: 36px;
 }
 
 h2 {
 	font-size: 20px;
-}
-
-section {
-	margin: 10px;
 }
 
 main ul li { 

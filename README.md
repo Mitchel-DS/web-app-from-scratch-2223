@@ -54,5 +54,5 @@ Your efforts will be graded using a single point rubric (see below). You will ha
 <!-- What external data source is featured in your project and what are its properties 🌠 -->
 
 <!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
+- [ ] hallo
 <!-- How about a license here? 📜 (or is it a licence?) 🤷 -->

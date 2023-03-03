@@ -25,3 +25,5 @@ const displayArt = async () => {
 
 displayArt();
 fetchArt();
+
+export { fetchArt, displayArt };

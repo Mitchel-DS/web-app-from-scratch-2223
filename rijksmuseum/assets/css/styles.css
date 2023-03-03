@@ -37,10 +37,18 @@ h2 {
 	font-size: 20px;
 }
 
+main ul {
+	display: grid;
+	grid-template-columns: 500px 50px 50px 50px;
+	grid-template-rows: auto;
+}
+
 main ul li { 
 	margin: 10px;
+	list-style: none;
 }
 
 main ul li img {
 	width: 100%;
 }
+

@@ -8,23 +8,25 @@ In this course you will learn to build a web application without frameworks or u
 [live demo - rijksmuseum](https://mitchel-ds.github.io/web-app-from-scratch-2223/rijksmuseum/index.html)
 
 <!-- ☝️ replace this description with a description of your own work -->
+## What is this project?
 
 In this project I will be making a web app that shows the collection of the Rijksmuseum. The user can search for a specific object and filter the objects by category. The user can also click on an object to see more information about the object.
 
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
+![rijkspreview]()
 
-<!-- Maybe a table of contents here? 📚 -->
+## Table of contents
 
-<!-- How about a section that describes how to install this project? 🤓 -->
 
-<!-- ...but how does one use this project? What are its features 🤔 -->
+## How to use project?
+1. Clone the repository
+2. Open the rijksmuseum/index.html file in your browser
 
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
+## External data source
+This project uses the [Rijksmuseum API](https://data.rijksmuseum.nl/object-metadata/api). 
 
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
+## To-do list
 
-## To do list
-
+### MUST HAVE
 - [x] Minor home screen
 - [x] Add minor styling
 - [x] Create fetch to api
@@ -37,13 +39,15 @@ In this project I will be making a web app that shows the collection of the Rijk
 - [ ] Add loading state
 - [ ] Add error state
 - [ ] Add empty state
+--
+- [ ] Make activity diagram
+- [ ] Make wireflow
+
+### SHOULD HAVE
 - [ ] Add filter function
 - [ ] Add detail page
 - [ ] Add detail page styling
 - [ ] Make website responsive
---
 
-- [ ] Make activity diagram
-- [ ] Make wireflow
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.

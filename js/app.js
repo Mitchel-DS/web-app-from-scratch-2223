@@ -1,4 +1,6 @@
-import { fetchArt, displayArt } from './api.js';
+import { displayArt } from './modules/api.js';
+import { locationHashChanged } from './modules/routing.js';
 
-fetchArt();
 displayArt();
+
+window.onhashchange = locationHashChanged;

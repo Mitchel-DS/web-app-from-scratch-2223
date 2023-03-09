@@ -4,8 +4,7 @@ In this course you will learn to build a web application without frameworks or u
 
 ## Live demos
 
-[live demo - visitekaartje](https://mitchel-ds.github.io/web-app-from-scratch-2223/visitekaartje/index.html)
-[live demo - rijksmuseum](https://mitchel-ds.github.io/web-app-from-scratch-2223/rijksmuseum/index.html)
+Live demo of [rijksmuseum.](https://mitchel-ds.github.io/web-app-from-scratch-2223/rijksmuseum/index.html)
 
 <!-- ☝️ replace this description with a description of your own work -->
 ## What is this project?
@@ -26,7 +25,6 @@ This project uses the [Rijksmuseum API](https://data.rijksmuseum.nl/object-metad
 
 ## To-do list
 
-### MUST HAVE
 - [x] Minor home screen
 - [x] Add minor styling
 - [x] Create fetch to api
@@ -43,11 +41,18 @@ This project uses the [Rijksmuseum API](https://data.rijksmuseum.nl/object-metad
 - [ ] Make activity diagram
 - [ ] Make wireflow
 
-### SHOULD HAVE
 - [ ] Add filter function
 - [ ] Add detail page
 - [ ] Add detail page styling
 - [ ] Make website responsive
+
+## Process
+### Week 1
+In the first week I started with the minor. I made a home screen and added some styling. I also made a fetch to the api and fetched the data. I displayed the data on the screen. 
+
+### Week 2
+
+### Week 3
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.

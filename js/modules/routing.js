@@ -1,6 +1,6 @@
 function locationHashChanged() {
 	console.log(window.location.hash);
-	if (location.hash === '#home') {
+	if (location.hash === '') {
 		// do something
 	}
 }

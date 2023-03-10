@@ -7,4 +7,5 @@ fetchArt();
 displayArt();
 
 window.addEventListener('load', locationHashChanged);
+
 button.addEventListener('click', displayMoreArt);

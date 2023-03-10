@@ -24,7 +24,6 @@ const displayArt = async () => {
 	console.log(arts);
 	
 	arts.forEach(item => {
-		// var listItem = `<li> <img src="${item.webImage.url}" alt="${item.title}"> <h2>${item.title}</h2> <p>${item.principalOrFirstMaker}</p> </li>`;
 		var listItem = `<li><a href="#${item.objectNumber}"><img src="${item.webImage.url}" alt="${item.title}"></a></li>`;
 		mainList.insertAdjacentHTML('beforeend', listItem);
 	});
@@ -37,7 +36,6 @@ const displayMoreArt = async () => {
 	console.log(arts);
 	
 	arts.forEach(item => {
-		// var listItem = `<li> <img src="${item.webImage.url}" alt="${item.title}"> <h2>${item.title}</h2> <p>${item.principalOrFirstMaker}</p> </li>`;
 		var listItem = `<li><a href="#${item.objectNumber}"><img src="${item.webImage.url}" alt="${item.title}"></a></li>`;
 		mainList.insertAdjacentHTML('beforeend', listItem);
 	});

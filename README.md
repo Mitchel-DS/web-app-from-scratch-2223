@@ -31,7 +31,7 @@ This project uses the [Rijksmuseum API](https://data.rijksmuseum.nl/object-metad
 - [x] Fetch data
 - [x] Display data	
 - [ ] Add router
-- [ ] Add modules
+- [x] Add modules
 - [ ] Update readme
 - [ ] Make search function
 - [ ] Add loading state
@@ -48,11 +48,13 @@ This project uses the [Rijksmuseum API](https://data.rijksmuseum.nl/object-metad
 
 ## Process
 ### Week 1
-In the first week I started with the minor. I made a home screen and added some styling. I also made a fetch to the api and fetched the data. I displayed the data on the screen. 
+Here I started with sketching out the design for the application for mobile first view.
 
 ### Week 2
 
 ### Week 3
+
+### Week 4 
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.

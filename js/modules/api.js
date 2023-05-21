@@ -1,6 +1,6 @@
 const endpoint = 'https://www.rijksmuseum.nl/api/nl/';
 const query = 'collection?key=';
-const apiKey = 'CIRKb1a1';
+const apiKey = '10XgIStq';
 const mainList = document.querySelector('main ul');
 const results = 15;
 var pages = 1;
@@ -24,7 +24,7 @@ const displayArt = async () => {
 	console.log(arts);
 	
 	arts.forEach(item => {
-		var listItem = `<li><a href="#${item.objectNumber}"><img src="${item.webImage.url}" alt="${item.title}"></a></li>`;
+		var listItem = `<li><a href="details#${item.objectNumber}"><img src="${item.webImage.url}" alt="${item.title}"></a></li>`;
 		mainList.insertAdjacentHTML('beforeend', listItem);
 	});
 }
@@ -36,7 +36,7 @@ const displayMoreArt = async () => {
 	console.log(arts);
 	
 	arts.forEach(item => {
-		var listItem = `<li><a href="#${item.objectNumber}"><img src="${item.webImage.url}" alt="${item.title}"></a></li>`;
+		var listItem = `<li><a href="details#${item.objectNumber}"><img src="${item.webImage.url}" alt="${item.title}"></a></li>`;
 		mainList.insertAdjacentHTML('beforeend', listItem);
 	});
 }

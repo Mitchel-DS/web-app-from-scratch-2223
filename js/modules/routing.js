@@ -6,7 +6,7 @@ function locationHashChanged() {
 	if (hash === '') {
 		// do something
 
-	} else if (hash === 'details#') {
+	} else if (hash === 'details') {
 		// do something
 		mainContainer.innerHTML = `<h1>About</h1>`;
 	}

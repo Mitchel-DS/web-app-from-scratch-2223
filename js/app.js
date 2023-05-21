@@ -1,3 +1,4 @@
+console.log('app.js is running');
 import { fetchArt, displayArt, displayMoreArt } from './modules/api.js';
 import { locationHashChanged } from './modules/routing.js';
 

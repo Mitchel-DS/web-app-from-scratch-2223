@@ -1,10 +1,11 @@
 const endpoint = 'https://www.rijksmuseum.nl/api/nl/';
 const query = 'collection?key=';
 const apiKey = '10XgIStq';
-const main = document.querySelector('main');
-const mainList = document.querySelector('main ul');
 const results = 15;
 var pages = 1;
+
+const main = document.querySelector('main');
+const mainList = document.querySelector('main ul');
 
 // fetch data from API
 const fetchArt = async () => {

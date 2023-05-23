@@ -1,4 +1,3 @@
-import { fetchArt, displayArt } from './modules/api.js';
+import { fetchArt } from './modules/api.js';
 
 fetchArt();
-displayArt();

@@ -11,9 +11,9 @@
 
 :root {
 	/* color variables */
-	--main-color: #F9E0AE;
-	--main-bg-color: #FC8621;
-	--main-font-color: #C24914;
+	--main-color: #fdf4e2;
+	--main-bg-color: #F9E0AE;
+	--main-font-color: #F9E0AE;
 	--main-link-font-color: #682C0E;
 
 	/* font variables */
@@ -41,6 +41,7 @@ h1 {
 
 a {
 	text-decoration: none;
+	color: black;
 }
 
 h2 {
@@ -75,6 +76,12 @@ main img {
 	width: 100%;
 }
 
+main .details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 main button {
 	padding: 10px;
 	margin: 10px;
@@ -84,5 +91,49 @@ main button {
 	color: white;
 	font-size: 16px;
 }
+
+div.loading.flex {
+	display: flex;
+}
+
+.loading {
+	display: none;
+	flex-direction: column;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	z-index: 9999;
+}
+	
+	.loading img {
+		width: 100px;
+		height: 100px;
+		animation: loadingHover 2s linear infinite;
+	}
+
+	.loading p {
+		font-size: 2em;
+		color: #646cff;
+		animation: loadingHover 2s linear infinite;
+	}
+
+	@keyframes loadingHover {
+		0% {
+			transform: translateY(0);
+			opacity: 1;
+		  }
+		  50% {
+			transform: translateY(-20px);
+			opacity: 0.7;
+		  }
+		  100% {
+			transform: translateY(0);
+			opacity: 1;
+		  }
+	}
 
 
